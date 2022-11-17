@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import SendIcon from '@mui/icons-material/send';
+
+/*Flexbox Properties*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar.
+
+.estilos1 li{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    color:	#930001;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.primero{
+    background: url(/Audiencias/Img/JPG/portada1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+}
+
+.col-m-md-6 btn btn-primary btn-lg d-flex justify-content-center{
+    color:#6d0c2e;
+}
+
+.segundo{
+    background: url(/Audiencias/Img/JPG/portada1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+}
+
+.tercero{
+    background: url(/Audiencias/Img/JPG/busissness.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+}
+
+
+.col-m-md-6 btn btn-primary btn-lg d-flex justify-content-center{
+    color:#6d0c2e;
+}
+
+
+
+footer{
+    background:#6d0c2e;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer span a{
+    color: #dcdcdc;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+    transition: all 1s ease;
+    color: gold;
+}
+
+
+/* responsive media query start */
+@media (max-width: 1104px) {
+    .about .about-content .left img{
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 991px) {
+    .max-width{
+        padding: 0 50px;
+    }
+}
+
+   @media only screen and (max-width: 770px) {
+    body {
+      background-image: url(/Audiencias/Img/JPG/portada1.jpg);
+    }
+  }
