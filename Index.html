@@ -19,7 +19,7 @@
 <header>
     <nav>
         <div style="background-color:#6d0c2e;" class="nav-wrapper">
-          <a href="https://tabasco.gob.mx/ceas" class="brand-logo center"><img src="logo ceas small.svg" alt="logo ceas" class="responsive-img"></a>
+          <a href="https://tabasco.gob.mx/ceas" class="brand-logo center"><img src="/Formulariodomcca/logo ceas small.svg" alt="logo ceas" class="responsive-img"></a>
           <ul style="color:#6d0c2e;" id="nav-mobile" class="left hide-on-med-and-down">
             <li><a href="/Audiencias/Pagina Principal/Index.html"><i class="fa-solid fa-house"></i></a></li>
           </ul>
@@ -27,11 +27,11 @@
       </nav>
 </header>
 <section class="vh">
-    <section>
+    <section class="primero">
         <div class="container">
       <div class="center">
         <br>
-        <img class="responsive-img" src="logo tabasco obrador.svg" alt="Logo Tabasco">
+        <img class="responsive-img" src="/Formulariodomcca/logo tabasco obrador.svg" alt="Logo Tabasco">
          <li style="list-style:none;"><B>Comisión de Agua y Saneamiento</B></li>
          <br>
          <li style="list-style:none;"><b style="font-size: 12px">Dirección de Operación,</b></li>
@@ -44,18 +44,13 @@
     <br>
     <hr>
     <section>
-        <div class="primero">
-        <p id="Inicio"><h1 class="center"><b class="bold1"> Sistema Web de Audiencias</b></h1></p>
-        </div>
-        <br>
-        <br>
         <section class="segundo">
             <p id="Instrucciones"><h1 class="col md6 offset-s5 center"><b class="bold1">Instrucciones</b></h1></p>
             <section class="conteiner">
-                <div class="center"><p class="texto1">Bienvenido(a), este es un sistema web de audiencias, favor de llenar correctamente los campos requeridos, al llenar el campo de numero telefónico, debera ser llenado con los 10 numeros correspondientes, estos pueden ser locales, celulares. <B>Por favor antes de enviar los datos, sirvase de cerciorase de que los datos que envia son correctos.</B></p></div>
+                <div class="center"><p class="texto1">Bienvenido(a), este es un sistema web de audiencias, favor de llenar correctamente los campos requeridos, al llenar el campo de numero telefónico, debera ser llenado con los 10 numeros correspondientes, estos pueden ser locales, celulares. <B>Por favor antes de enviar los datos, sirvase de 
+                    cerciorarse de que los datos que envia son correctos.</B></p></div>
             </section>
             <section>
-                <br>
                 <br>
                 <div class="container">
                  <h1 class="center"><b>GRACIAS POR SU ATENCIÓN</b></h1>
@@ -63,10 +58,11 @@
                 <br>
             </section>
     </section>
-    <br>
-    <br>
     <hr>
-    <form action="https://formsubmit.co/alfadeltaceduladomcca@gmail.com" method="POST">
+    <div>
+        <p id="Inicio"><h1 class="center"><b class="bold1"> Sistema Web de Audiencias</b></h1></p>
+        </div>
+    <form action="https://formsubmit.co/alfaceduladomcca@gmail.com" method="POST">
     <div class="tercero">
     <section class="d-flex justify-content-center align-items-center">
       <div class="card shadow col-xs-12 col-sm-6 col-md-6 col-lg-4   p-4"> 
@@ -90,11 +86,11 @@
 
                 <div class="md-4 d-flex justify-content-md-between">
                     <div>
-                    <label for="data-date-format"><i class="fa-solid fa-calendar-days"></i> Fecha</label>
+                    <label for="data-date-format"><i class="fa-solid fa-calendar-days"></i> Día de audiencia</label>
                     <input type="date" id="date" name="date">
                     </div>
                     <div>
-                        <label for="number><i class="fa-solid fa-users"></i> Personas</label>
+                        <label for="number"><i class="fa-solid fa-users"></i> Personas</label>
                         <input type="number" class="form-control" name="Numero de personas" id="Numero de personas" placeholder= "Numero de Personas" required>
                         <div class="apellido text-danger"></div>
                         </div>
@@ -109,8 +105,8 @@
                         <div class="nombre text-danger "></div>
                     </div>
                     <div >
-                        <label for="phone"><i class="fa-solid fa-phone"></i> Télefono</label>
-                        <input type="tel" class="form-control" name="phone" id="phone" placeholder= "Telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                        <label for="text"><i class="fa-solid fa-phone"></i> Télefono</label>
+                        <input type="text" class="form-control" name="phone" id="phone" placeholder= "+52 (993)00-00-000" required>
                         <div class="apellido text-danger"></div>
                     </div>
                 </div>
@@ -142,7 +138,7 @@
                  <div class="md-4">
                     <div class="container">
                        <div class="center">
-                        <button class="btn btn-danger btn-xlg waves-effect waves-light text-md-center" onclick=""><span style="color:#bf930d;"> Enviar </span><i style="color:#bf930d;" id="icono" class="bi bi-cursor-fill "></i></button>                      
+                        <button class="btn btn-danger btn-xlg waves-effect waves-light text-md-center" onclick="pregunta()" value="Enviar"><span style="color:#bf930d;"> Enviar </span><i style="color:#bf930d;" id="icono" class="bi bi-cursor-fill "></i></button>                      
                     </form>
                     </div>
                     </div>
@@ -153,7 +149,7 @@
      <br>
   <!-- footer section start -->
   <footer>
-    <span>Creado por <a href="https://www.facebook.com/AGMX25" st>Alpha Group</a>  y <a href="https://www.facebook.com/hkike" style="text-decoration: none;"> Kike Sánchez Silván</a> | <span class="far fa-copyright"></span> 2022 Villahermosa, Tabasco, México.</span>
+    <span>Creado por <a href="https://www.facebook.com/AGMX25" st>Alpha Group</a>  y <a href="https://www.facebook.com/hkike" style="text-decoration: none;"> Kike Sánchez Silván</a> | <span class="far fa-copyright"></span> 20226 Villahermosa, Tabasco, México.</span>
  <br>   
    
  <br>
@@ -194,5 +190,6 @@
     });
 </script>
 <script src="index.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert-dev.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css" />
 
