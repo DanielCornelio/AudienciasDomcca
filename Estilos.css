@@ -21,7 +21,7 @@
 }
 
 .primero{
-    background: url(/Audiencias/Img/JPG/portada1.jpg);
+    background: url(portada1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,7 +34,7 @@
 }
 
 .segundo{
-    background: url(/Audiencias/Img/JPG/portada1.jpg);
+    background: url(portada1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,7 +43,7 @@
 }
 
 .tercero{
-    background: url(/Audiencias/Img/JPG/busissness.jpg);
+    background: url(busissness.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,22 +75,9 @@ footer span a:hover{
 }
 
 
-/* responsive media query start */
-@media (max-width: 1104px) {
-    .about .about-content .left img{
-        height: 350px;
-        width: 350px;
-    }
-}
-
-@media (max-width: 991px) {
-    .max-width{
-        padding: 0 50px;
-    }
-}
 
    @media only screen and (max-width: 770px) {
     body {
-      background-image: url(/Audiencias/Img/JPG/portada1.jpg);
+      background-image: url(portada1.jpg);
     }
   }
